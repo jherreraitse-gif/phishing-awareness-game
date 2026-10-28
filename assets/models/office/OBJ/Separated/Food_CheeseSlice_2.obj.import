@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yqs8k38u87ir"
+path="res://.godot/imported/Food_CheeseSlice_2.obj-2d6759c58699dc9f95b2a68a58da9fbe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Food_CheeseSlice_2.obj-2d6759c58699dc9f95b2a68a58da9fbe.mesh"]
+
+source_file="res://assets/models/office/OBJ/Separated/Food_CheeseSlice_2.obj"
+dest_files=["res://.godot/imported/Food_CheeseSlice_2.obj-2d6759c58699dc9f95b2a68a58da9fbe.mesh", "res://.godot/imported/Food_CheeseSlice_2.obj-2d6759c58699dc9f95b2a68a58da9fbe.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
