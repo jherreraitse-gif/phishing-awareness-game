@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://fno1ygojn5l1"]
+
+[ext_resource type="Script" uid="uid://cg2xcbqvev2iv" path="res://scenes/levels/generador_oficina_juan.gd" id="1_jucbt"]
+[ext_resource type="Script" uid="uid://bhwtmmnba65ok" path="res://scenes/levels/camara_libre_juan.gd" id="2_n586y"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_pv3id"]
+size = Vector3(30, 0.2, 20)
+
+[node name="OficinaPrincipal" type="Node3D" unique_id=663308320]
+
+[node name="PisoOficina" type="StaticBody3D" parent="." unique_id=617917349]
+visible = false
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="PisoOficina" unique_id=932347650]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.742558, -12.470209, -5.7541122)
+mesh = SubResource("BoxMesh_pv3id")
+
+[node name="PruebaOficina" type="Node3D" parent="." unique_id=27003967]
+script = ExtResource("1_jucbt")
+
+[node name="Camera3D" type="Camera3D" parent="PruebaOficina" unique_id=180694439]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, 0.5, 0, -0.5, 0.8660254, 0, 12, 22)
+current = true
+script = ExtResource("2_n586y")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="PruebaOficina" unique_id=1819896448]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="PruebaOficina" unique_id=935895759]
